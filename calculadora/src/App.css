@@ -38,9 +38,9 @@
 }
 
 .container {
-  margin: 0;
-  padding: 0;
+  margin: 20px;
   width: 40%;
+  outline: 3px solid rgb(153, 18, 0);
   min-width: 200px;
   max-width: 400px;
   display: flex;
@@ -89,18 +89,28 @@
   font-size: 1.5rem;
 }
 
+.botao_memoria {
+  height: 40px;
+  background-color: rgb(219, 47, 47);
+  color: white;
+  width: 25%;
+  font-size: 1.5rem;
+}
+
+.display_memoria {
+  width: 50%;
+  height: 40px;
+  outline: 1px solid #282c34;
+  background-color: white;
+  font-size: 1.5rem;
+}
+
 .linha1 {
   width: 100%;
 }
 .linha2 {
+  padding-top: 5px;
   width: 100%;
-}
-.linha3 {
-  width: 100%;
-}
-.linha4 {
-  width: 100%;
-}
-.linha5 {
-  width: 100%;
+  display: flex;
+  flex-direction: row;
 }
